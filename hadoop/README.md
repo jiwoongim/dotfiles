@@ -4,10 +4,9 @@
 
 
 ###2. Install m2eclipse (Mevan)
-
     a. Goto Help -> Install new package
-    b. Put http://download.eclipse.org/technology/m2e/releases, which can be found from this website, http://eclipse.org/m2e/download/  
-
+    b. Put http://download.eclipse.org/technology/m2e/releases, 
+    which can be found from this website, http://eclipse.org/m2e/download/  
 
 
 ###3. Update the conf/core-site.xml file
