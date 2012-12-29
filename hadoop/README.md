@@ -1,16 +1,16 @@
-###How to setup Hadoob & mevan
+#How to setup Hadoob & mevan
 
-1. Install Hadoob from  http://hadoop.apache.org/
+###1. Install Hadoob from  http://hadoop.apache.org/
 
 
-2. Install m2eclipse (Mevan)
+###2. Install m2eclipse (Mevan)
 
     a. Goto Help -> Install new package
     b. Put http://download.eclipse.org/technology/m2e/releases, which can be found from this website, http://eclipse.org/m2e/download/  
 
 
 
-3. Update the conf/core-site.xml file
+###3. Update the conf/core-site.xml file
 
 ```
 <?xml version="1.0"?>
@@ -25,7 +25,7 @@
 </configuration>
 ```
 
-4. update the conf/mapred-site.xml file
+###4. update the conf/mapred-site.xml file
 
 ```
 <?xml version="1.0"?>
@@ -40,7 +40,7 @@
 </configuration>
 ```
 
-5. update the conf/hdfs-site file
+###5. update the conf/hdfs-site file
 
 ```
 <?xml version="1.0"?>
@@ -55,17 +55,17 @@
 </configuration>
 ```
 
-6. bin/hadoop name node -format
+###6. bin/hadoop name node -format
 
 
 
-7. Goto conf/hadoop-env.sh, set
+###7. Goto conf/hadoop-env.sh, set
 
 ```
 export JAVA_HOME=/Library/Java/Home
 ```
 
-8. bin/start-all.sh
+###8. bin/start-all.sh
 
 
 
