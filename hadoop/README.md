@@ -6,7 +6,6 @@
 2. Install m2eclipse (Mevan)
 
     a. Goto Help -> Install new package
-
     b. Put http://download.eclipse.org/technology/m2e/releases, which can be found from this website, http://eclipse.org/m2e/download/  
 
 
@@ -63,9 +62,7 @@
 7. Goto conf/hadoop-env.sh, set
 
 ```
-
 export JAVA_HOME=/Library/Java/Home
-
 ```
 
 8. bin/start-all.sh
