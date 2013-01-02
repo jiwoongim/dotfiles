@@ -66,8 +66,12 @@ export JAVA_HOME=/Library/Java/Home
 
 ###8. bin/start-all.sh
 
+###9. To fixed the SCDynamic Store issue caused by sercurity limites
 
+```
+export HADOOP_OPTS="-Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
+```
 
-9. bin/hadoop fs -ls hdfs://localhost9000
+###9. bin/hadoop fs -ls hdfs://localhost9000
 
 
