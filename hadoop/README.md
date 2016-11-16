@@ -1,9 +1,9 @@
-#How to setup Hadoob & mevan
+#How to setup Hadoop & Maven
 
-###1. Install Hadoob from  http://hadoop.apache.org/
+###1. Install Hadoop from  http://hadoop.apache.org/
 
 
-###2. Install m2eclipse (Mevan) 
+###2. Install m2eclipse (Maven) 
     a. Goto Help -> Install new package
     b. Put http://download.eclipse.org/technology/m2e/releases
         (from http://eclipse.org/m2e/download/)
